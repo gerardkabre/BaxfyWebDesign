@@ -202,8 +202,7 @@ a:hover,a:focus
     margin-bottom: 40px;
 }
 
-.masthead
-{
+.masthead {
     position: relative;
     color: #FFF;
     text-align: center;
@@ -300,18 +299,20 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .btn-warning
 {
-    border: solid 1px #8FB9E4;
-    background-color: #8FB9E4;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: solid 0px #8FB9E4;
+    background-color: #E34A4A;
     line-height: 1.8;
-    -webkit-box-shadow: 0 3px 0 rgb(102, 153, 205);
-    box-shadow: 0 3px 0 rgb(102, 153, 205);
+    -webkit-box-shadow: 0 3px 0 rgb(123, 5, 5);
+    box-shadow: 0 3px 0 rgb(123, 5, 5);
 }
 
 .btn-warning:hover,.btn-warning:focus,.btn-warning:active
 {
     -webkit-box-shadow: 0 3px 0 rgb(214,106,18);
-    box-shadow: 0 3px 0 rgb(102, 153, 205);
-    background-color: #191C36;
+    box-shadow: 0 3px 0 rgb(66, 14, 20);
+    background-color: rgb(156, 33, 48);
 }
 
 .btn-grey
@@ -461,7 +462,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .featues-single p
 {
-    color: #b3b5b9;
+    color: #ccced3;
     margin-left: 50px;
     margin-bottom: 0;
 }
@@ -775,16 +776,13 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
     margin-bottom: 25px;
 }
 
-.footercta
-{
+.footercta {
     color: #FFF;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
-    background-color: rgba(2, 6, 34, 0.91);
-    background-image: url('header_bg.jp');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -805,7 +803,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .footercta .section-title h4
 {
-    color: #b5b2df;
+    color: #;
 }
 
 .footerlinks
@@ -1355,7 +1353,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .logonav
 {
-    height: 20px;
+    width: 35%;
 }
 
 .navphone
