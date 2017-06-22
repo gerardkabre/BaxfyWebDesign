@@ -299,18 +299,20 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .btn-warning
 {
-    border: solid 1px #8FB9E4;
-    background-color: #8FB9E4;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: solid 0px #8FB9E4;
+    background-color: #E34A4A;
     line-height: 1.8;
-    -webkit-box-shadow: 0 3px 0 rgb(102, 153, 205);
-    box-shadow: 0 3px 0 rgb(102, 153, 205);
+    -webkit-box-shadow: 0 3px 0 rgb(123, 5, 5);
+    box-shadow: 0 3px 0 rgb(123, 5, 5);
 }
 
 .btn-warning:hover,.btn-warning:focus,.btn-warning:active
 {
     -webkit-box-shadow: 0 3px 0 rgb(214,106,18);
-    box-shadow: 0 3px 0 rgb(102, 153, 205);
-    background-color: #191C36;
+    box-shadow: 0 3px 0 rgb(66, 14, 20);
+    background-color: rgb(156, 33, 48);
 }
 
 .btn-grey
@@ -460,7 +462,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .featues-single p
 {
-    color: #b3b5b9;
+    color: #ccced3;
     margin-left: 50px;
     margin-bottom: 0;
 }

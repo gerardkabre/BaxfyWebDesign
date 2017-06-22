@@ -202,17 +202,19 @@ a:hover,a:focus
     margin-bottom: 40px;
 }
 
-.masthead
-{
+.masthead {
     position: relative;
     color: #FFF;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
-    background-color: rgba(2, 6, 34, 0.91);
-    background-image: url('header_bg.jp');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    
+    //*background-color: rgba(2, 6, 34, 0.91); *//
+ background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -458,7 +460,7 @@ a:hover,a:focus
 
 .featues-single p
 {
-    color: #A1B8E4;
+    color: #b3b5b9;
     margin-left: 50px;
     margin-bottom: 0;
 }
@@ -772,16 +774,13 @@ a:hover,a:focus
     margin-bottom: 25px;
 }
 
-.footercta
-{
+.footercta {
     color: #FFF;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
-    background-color: rgba(2, 6, 34, 0.91);
-    background-image: url('header_bg.jp');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -802,7 +801,7 @@ a:hover,a:focus
 
 .footercta .section-title h4
 {
-    color: #b5b2df;
+    color: #;
 }
 
 .footerlinks
@@ -1352,7 +1351,7 @@ a:hover,a:focus
 
 .logonav
 {
-    height: 20px;
+    width: 35%;
 }
 
 .navphone

@@ -202,17 +202,19 @@ a:hover,a:focus
     margin-bottom: 40px;
 }
 
-.masthead
-{
+.masthead {
     position: relative;
     color: #FFF;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
-    background-color: rgba(2, 6, 34, 0.91);
-    background-image: url('header_bg.jp');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    
+    //*background-color: rgba(2, 6, 34, 0.91); *//
+ background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -298,16 +300,16 @@ a:hover,a:focus
 .btn-warning
 {
     border: solid 1px #8FB9E4;
-    background-color: #8FB9E4;
+    background-color: #E34A4A;
     line-height: 1.8;
-    -webkit-box-shadow: 0 3px 0 rgb(102, 153, 205);
-    box-shadow: 0 3px 0 rgb(102, 153, 205);
+    -webkit-box-shadow: 0 3px 0 rgb(232, 12, 12);
+    box-shadow: 0 3px 0 rgb(232, 12, 12);
 }
 
 .btn-warning:hover,.btn-warning:focus,.btn-warning:active
 {
     -webkit-box-shadow: 0 3px 0 rgb(214,106,18);
-    box-shadow: 0 3px 0 rgb(102, 153, 205);
+    box-shadow: 0 3px 0 rgb(232, 12, 205);
     background-color: #191C36;
 }
 
@@ -772,16 +774,13 @@ a:hover,a:focus
     margin-bottom: 25px;
 }
 
-.footercta
-{
+.footercta {
     color: #FFF;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
-    background-color: rgba(2, 6, 34, 0.91);
-    background-image: url('header_bg.jp');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -802,7 +801,7 @@ a:hover,a:focus
 
 .footercta .section-title h4
 {
-    color: #b5b2df;
+    color: #;
 }
 
 .footerlinks
@@ -1352,12 +1351,12 @@ a:hover,a:focus
 
 .logonav
 {
-    height: 20px;
+    width: 35%;
 }
 
 .navphone
 {
-    color: #8fb8e4;
+    color: #E34A4A;
 }
 
 .footimg
