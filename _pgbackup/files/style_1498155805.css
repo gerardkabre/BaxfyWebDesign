@@ -202,16 +202,17 @@ a:hover,a:focus
     margin-bottom: 40px;
 }
 
-.masthead {
+.masthead
+{
     position: relative;
     color: #FFF;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
     
     //*background-color: rgba(2, 6, 34, 0.91); *//
- background: #000428;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background: #1c92d2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(0deg, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(0deg, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 
@@ -779,9 +780,11 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
     color: #FFF;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
-    background: #000428;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgba(2, 6, 34, 0.91);
+    background-image: url('header_bg.jp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1352,7 +1355,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .logonav
 {
-    width: 35%;
+    height: 20px;
 }
 
 .navphone
