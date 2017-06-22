@@ -774,8 +774,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
     margin-bottom: 25px;
 }
 
-.footercta
-{
+.footercta {
     color: #FFF;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0,0,0,.1);
@@ -802,7 +801,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .footercta .section-title h4
 {
-    color: #b5b2df;
+    color: #;
 }
 
 .footerlinks
