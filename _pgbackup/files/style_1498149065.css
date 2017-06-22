@@ -297,17 +297,16 @@ a:hover,a:focus
 
 .btn-warning
 {
-     border: solid 1px #8FB9E4;
-      background-color: #8FB9E4;
+    background-color: #ff871c;
     line-height: 1.8;
-    -webkit-box-shadow: 0 3px 0 rgb(102, 153, 205;
-    box-shadow: 0 3px 0 rgb(102, 153, 205);
+    -webkit-box-shadow: 0 3px 0 rgb(214,106,18);
+    box-shadow: 0 3px 0 rgb(214,106,18);
 }
 
 .btn-warning:hover,.btn-warning:focus,.btn-warning:active
 {
     -webkit-box-shadow: 0 3px 0 rgb(214,106,18);
-    box-shadow: 0 3px 0 rgb(102, 153, 205);
+    box-shadow: 0 3px 0 rgb(214,106,18);
     background-color: #191C36;
 }
 
