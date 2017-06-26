@@ -393,7 +393,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 {
     text-align: center;
     margin-top: 8%;
-    margin-bottom: 8%;
+    margin-bottom: 50px;
 }
 
 .section-title h2
@@ -1339,8 +1339,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .imgfeatures
 {
-    max-width: 12em;
-    margin-top: -20%;
+    max-width: 10em;
 }
 
 .nav
@@ -1380,10 +1379,5 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 {
     width: 120px;
     border-radius: 140px;
-}
-
-.mockupimg
-{
-    margin-bottom: -14%;
 }
 

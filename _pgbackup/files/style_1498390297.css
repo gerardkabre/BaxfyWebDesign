@@ -392,8 +392,8 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 .section-title
 {
     text-align: center;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-top: 9%;
+    margin-bottom: 50px;
 }
 
 .section-title h2
@@ -470,6 +470,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
     margin-left: 50px;
     margin-bottom: 0;
     font-family: 'Lato', sans-serif;
+
 }
 
 .masthead .featues-single h5,.masthead .features-lead
@@ -924,8 +925,8 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
     }
     .signup-block .form-title
     {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
+         font-family: 'Montserrat', sans-serif;
+		 font-size: 20px;
     }
     .input-lg
     {
@@ -1339,8 +1340,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .imgfeatures
 {
-    max-width: 12em;
-    margin-top: -20%;
+    max-width: 10em;
 }
 
 .nav
@@ -1380,10 +1380,5 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 {
     width: 120px;
     border-radius: 140px;
-}
-
-.mockupimg
-{
-    margin-bottom: -14%;
 }
 
