@@ -408,6 +408,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .highlight .section-title
 {
+    margin-top: 50px;
 }
 
 .heroimg img,.clientlogo img
@@ -1382,17 +1383,12 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .mockupimg
 {
-    margin-bottom: -4%;
-    margin-top: 5%;
+    margin-bottom: -9%;
+    margin-top: 10%;
 }
 
 .margin2
 {
     margin-left: 10%;
-}
-
-.featuresimages
-{
-    max-width: 70%;
 }
 
