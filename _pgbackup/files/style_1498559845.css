@@ -1396,3 +1396,25 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
     max-width: 70%;
 }
 
+.card-5
+{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+null
+{
+}
+
+@media (max-width:479px)
+{
+@media (max-width:479px)
+{
+    .noshowphone
+    {
+        display: none!important;
+    visibility: hidden!important;
+    }
+}
+
+}
+
