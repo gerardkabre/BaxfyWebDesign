@@ -1429,9 +1429,45 @@ null
 }
 
 .responsive-video-container
-{ position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
-
-.responsive-video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
 }
 
+.responsive-video-container iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:479px)
+{
+    .onlyphone
+    {
+        display: none;
+    }
+}
+
+.downfeatures
+{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.downfeaturesh4
+{
+    font-size: 1.3em;
+}
+
+.h2downfeatures
+{
+    color: rgba(0, 0, 0, 0.53);
+}
 
