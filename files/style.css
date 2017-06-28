@@ -1382,8 +1382,10 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .mockupimg
 {
-    margin-bottom: -4%;
-    margin-top: 5%;
+    margin-bottom: -18%;
+    margin-top: 10%;
+    max-width: 130%;
+    margin-left: -10%;
 }
 
 .margin2
@@ -1393,7 +1395,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .featuresimages
 {
-    max-width: 70%;
+    max-width: 60%;
 }
 
 .card-5
@@ -1450,7 +1452,8 @@ null
 {
     .onlyphone
     {
-        display: none;
+        max-width: 60%;
+        margin-left: 20%;
     }
 }
 
@@ -1469,5 +1472,16 @@ null
 .h2downfeatures
 {
     color: rgba(0, 0, 0, 0.53);
+}
+
+@media (max-width:479px)
+{
+    .onlyphonemockuo
+    {
+        max-width: 130%;
+        margin-top: 50px;
+        margin-bottom: -23%;
+        margin-left: -20%;
+    }
 }
 
