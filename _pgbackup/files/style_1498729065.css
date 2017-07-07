@@ -1385,7 +1385,8 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 {
     margin-bottom: -12%;
     margin-top: 10%;
-    max-width: 90%;
+    max-width: 130%;
+    margin-left: -10%;
 }
 
 .margin2

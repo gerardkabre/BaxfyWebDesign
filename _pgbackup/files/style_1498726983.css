@@ -1,5 +1,3 @@
-
-
 @charset "utf-8";
 
 body
@@ -1372,7 +1370,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 .downfoot
 {
-    --empty-placeholder: 0px;
+--empty-placeholder: 0px;
 }
 
 .profile
@@ -1385,7 +1383,8 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 {
     margin-bottom: -12%;
     margin-top: 10%;
-    max-width: 90%;
+    max-width: 130%;
+    margin-left: -10%;
 }
 
 .margin2
@@ -1405,7 +1404,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 
 null
 {
-    --empty-placeholder: 0px;
+--empty-placeholder: 0px;
 }
 
 @media (max-width:479px)
@@ -1484,26 +1483,9 @@ null
         margin-bottom: -23%;
         margin-left: -20%;
     }
-    first3phone
-    {
-        --empty-placeholder: 0px;
-    }
 }
-
-@media (max-width:767px)
-{
-    .wrapfeatphone
-    {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .2ndphone
-    {
-        display: table-footer-group;
-    }
-    .reverseexample
-    {
-        display: table-column-group;
-    }
+@media (max-width:479px) {
+first3phone {
+--empty-placeholder: 0px;
 }
-
+}
