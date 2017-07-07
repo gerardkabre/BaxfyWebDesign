@@ -1,5 +1,3 @@
-
-
 @charset "utf-8";
 
 body
@@ -1334,9 +1332,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 .imghero
 {
     margin-top: -10%;
-}
-
-.imgfeatures
+}.imgfeatures
 {
     max-width: 12em;
 }
@@ -1509,4 +1505,7 @@ null
         display: table-column-group;
     }
 }
-
+.socialicon {
+--empty-placeholder: 0px;
+max-width: 2.5em;
+}

@@ -1,5 +1,3 @@
-
-
 @charset "utf-8";
 
 body
@@ -1334,9 +1332,7 @@ background: linear-gradient(to top, #004e92, #000428); /* W3C, IE 10+/ Edge, Fir
 .imghero
 {
     margin-top: -10%;
-}
-
-.imgfeatures
+}.imgfeatures
 {
     max-width: 12em;
 }
@@ -1467,12 +1463,15 @@ null
 
 .downfeaturesh4
 {
+    text-align: center;
     font-size: 1.3em;
 }
 
 .h2downfeatures
 {
     color: rgba(0, 0, 0, 0.53);
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 @media (max-width:479px)
@@ -1506,4 +1505,3 @@ null
         display: table-column-group;
     }
 }
-
