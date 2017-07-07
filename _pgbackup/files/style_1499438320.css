@@ -1467,15 +1467,12 @@ null
 
 .downfeaturesh4
 {
-    text-align: center;
     font-size: 1.3em;
 }
 
 .h2downfeatures
 {
     color: rgba(0, 0, 0, 0.53);
-    margin-top: 5%;
-    margin-bottom: 3%;
 }
 
 @media (max-width:479px)
